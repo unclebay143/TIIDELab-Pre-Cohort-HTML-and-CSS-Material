@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- user profile -->
+        <section class="profile">
+            <h3>Profile</h3>
+            <!-- <hr> -->
+            <div class="user-profile">
+                <h4>First Name: <span id="first-name-placeholder"></span></h4>
+                <h4>Second Name: <span id="second-name-placeholder"></span></h4>
+                <h4>Date of Birth: <span id="dob-placeholder"></span></h4>
+            </div>
+        </section>
+
+        <!-- registration form -->
+        <section class="form-wrapper">
+            <h3>Registration Form</h3>
+            <!-- error message when form input is not valid -->
+            <span id="error-message"></span>
+            <form>
+                <div class="input-wrapper">
+                    <label for="first-name">First name</label>
+                    <input type="text" placeholder="Enter Your Firstname" id="first-name">
+                </div>
+                <div class="input-wrapper">
+                    <label for="second-name">Second name</label>
+                    <input type="text" placeholder="Enter Your Second name" id="second-name">
+                </div>
+                <div class="input-wrapper">
+                    <label for="Dob">Date of Birth</label>
+                    <input type="date" id="dob">
+                </div>
+                <div class="input-wrapper">
+                    <button type="button" onclick="validateFormInput()">Submit</button>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <script src="./assets/js/processForm.js"></script>
+</body>
+</html>

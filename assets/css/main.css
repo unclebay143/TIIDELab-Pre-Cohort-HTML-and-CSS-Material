@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.container{
+    width: 70%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+
+/* profile */
+.container .profile{
+    width: 50%;
+}
+
+
+.profile .user-profile{
+    margin-top: 20px;
+}
+
+.profile h3{
+    font-size: 30px;
+    border-bottom: 5px solid aqua;
+    padding-bottom: 7px;
+    width: 30%;
+}
+
+.profile h4{
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.profile span{
+    font-weight: 100;
+}
+
+
+
+/*  form section */
+.container .form-wrapper{
+    width: 50%;
+    padding-left: 20px;
+}
+
+
+.form-wrapper h3{
+    font-size: 30px;
+    border-bottom: 5px solid aqua;
+    padding-bottom: 7px;
+    width: 60%;
+
+}
+
+#error-message{
+    float: right;
+    color: red;
+}
+
+.form-wrapper form{
+    margin-top: 20px;
+}
+
+
+.form-wrapper form .input-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.input-wrapper label{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.input-wrapper input{
+    padding: 6px 10px;
+    outline: none;
+    font-size: 17px;
+}
+
+
+.input-wrapper button{
+    padding: 6px 10px;
+    background-color: aqua;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+
+.input-wrapper button:hover{
+    opacity: 0.9;
+}
