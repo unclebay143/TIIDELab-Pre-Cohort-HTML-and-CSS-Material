@@ -38,7 +38,6 @@ function handleFormSubmission(){
     getSecondName.value = "";
     getDob.value = "";
 
-
-
+    // display success message to the user
     getMessagePlaceholder.innerHTML = "Form Submitted Successfully"
 }
