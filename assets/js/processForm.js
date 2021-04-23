@@ -27,15 +27,16 @@ const validateFormInput = () =>{
 
 // function to set the user details to the profile placeholder
 function handleFormSubmission(){
+    
     // set the user input to the html value of the element
     getFirstNamePlaceholder.innerHTML = getFirstName.value;
     getSecondNamePlaceholder.innerHTML = getSecondName.value;
     getDobPlaceholder.innerHTML = getDob.value;
-
+    
     // reset the form to be blank
-    getFirstName.innerHTML = "";
-    getSecondName.innerHTML = "";
-    getDob.innerHTML = "";
+    getFirstName.value = "";
+    getSecondName.value = "";
+    getDob.value = "";
 
 
 
